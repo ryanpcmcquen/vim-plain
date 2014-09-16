@@ -1,17 +1,14 @@
-" Vim Syntax Highlighting File
+" vim syntax highlighting file
 "
-"
-" Extra: This is to copy the vi clone elvis on its
+" extra: This is to copy the vi clone elvis on its
 " syntax highlighting.
 "
-" Maintainer: Dean Jones<dean@cleancode.org>
+" Original maintainer: Dean Jones<dean@cleancode.org>
 "
 " Modified by Ryan P.C. McQuen | Everett, WA | ryan.q@linux.com
 "
 
 hi clear
-
-""hi Normal ctermfg=white
 
 hi PreProc ctermfg=white
 hi Type ctermfg=white
@@ -22,5 +19,4 @@ hi Number cterm=NONE ctermfg=NONE
 hi String cterm=NONE ctermfg=NONE
 hi Special cterm=NONE ctermfg=NONE
 
-" EOF for Dean's Elvis like highlighting
-
+" EOF
