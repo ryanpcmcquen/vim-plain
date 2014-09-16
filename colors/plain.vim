@@ -12,8 +12,8 @@ let g:colors_name="plain"
 
   hi LineNr       term=bold            gui=bold guifg=White guibg=black
   hi LineNr       term=bold            cterm=bold ctermfg=White ctermbg=black
-  hi Normal       ctermfg=White        ctermbg=Black
-  hi Normal       guifg=White          guibg=Black
+  ""hi Normal       ctermfg=White        ctermbg=Black
+  ""hi Normal       guifg=White          guibg=Black
   hi NonText      ctermfg=White        ctermbg=Black
   hi NonText      guifg=White          guibg=Black
 
