@@ -6,12 +6,12 @@
 "
 " Maintainer: Dean Jones<dean@cleancode.org>
 "
-" modified by Ryan P.C. McQuen, WA, ryan.q@linux.com
+" Modified by Ryan P.C. McQuen | Everett, WA | ryan.q@linux.com
 "
 
 hi clear
 
-hi Normal ctermfg=white
+""hi Normal ctermfg=white
 
 hi PreProc ctermfg=white
 hi Type ctermfg=white
