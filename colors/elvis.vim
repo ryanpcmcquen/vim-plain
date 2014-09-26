@@ -12,6 +12,8 @@ hi clear
 
 hi Normal ctermbg=black
 
+hi Normal ctermfg=gray
+
 hi PreProc ctermfg=white
 hi Type ctermfg=white
 hi Statement ctermfg=white
