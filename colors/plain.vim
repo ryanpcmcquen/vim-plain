@@ -1,7 +1,7 @@
-" Vim color file
+" vim color file
 " for those who want simple, elvis-like highlighting
-" Maintainer:   Ryan P.C. McQuen <ryan.q@linux.com>
-" Last Change:  2014.05
+" maintainer: Ryan P.C. McQuen  <ryan.q@linux.com>
+
 
 set background=dark     "or light
 hi clear
@@ -20,8 +20,8 @@ let g:colors_name="plain"
 
   hi Statement    ctermfg=White        ctermbg=Black
   hi Statement    guifg=White          guibg=Black
-  hi Comment      ctermfg=White        ctermbg=Black cterm=bold term=bold
-  hi Comment      guifg=White          guibg=Black gui=bold term=bold
+  hi Comment      ctermfg=LightGray    ctermbg=Black cterm=bold term=bold
+  hi Comment      guifg=LightGray      guibg=Black gui=bold term=bold
   hi Constant     ctermfg=White        ctermbg=Black
   hi Constant     guifg=White          guibg=Black
   hi Identifier   ctermfg=White        ctermbg=Black
@@ -38,16 +38,16 @@ let g:colors_name="plain"
   hi Folded       guifg=White          guibg=Black gui=underline term=none
   hi Special      ctermfg=White        ctermbg=Black
   hi Special      guifg=White          guibg=Black
-  hi PreProc      ctermfg=White        ctermbg=Black cterm=bold term=bold
-  hi PreProc      guifg=White          guibg=Black gui=bold term=bold
-  hi Scrollbar    ctermfg=White        ctermbg=Black
-  hi Scrollbar    guifg=White          guibg=Black
+  hi PreProc      ctermfg=LightGray    ctermbg=Black cterm=bold term=bold
+  hi PreProc      guifg=LightGray      guibg=Black gui=bold term=bold
+  hi Scrollbar    ctermfg=LightGray    ctermbg=Black
+  hi Scrollbar    guifg=LightGray      guibg=Black
   hi Cursor       ctermfg=LightGray    ctermbg=White
   hi Cursor       guifg=LightGray      guibg=White
   hi ErrorMsg     ctermfg=Red          ctermbg=Black cterm=bold term=bold
   hi ErrorMsg     guifg=Red            guibg=Black gui=bold term=bold
-  hi WarningMsg   ctermfg=White       ctermbg=Black
-  hi WarningMsg   guifg=White         guibg=Black
+  hi WarningMsg   ctermfg=White        ctermbg=Black
+  hi WarningMsg   guifg=White          guibg=Black
   hi VertSplit    ctermfg=White        ctermbg=Black
   hi VertSplit    guifg=White          guibg=Black
   hi Directory    ctermfg=White        ctermbg=Black
@@ -70,3 +70,4 @@ let g:colors_name="plain"
 
   hi cursorline   ctermbg=White ctermfg=black
   hi cursorline   guibg=White guifg=black
+
