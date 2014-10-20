@@ -24,8 +24,8 @@ let g:colors_name="plain"
   hi Comment      guifg=White          guibg=Black gui=bold term=bold
   hi Constant     ctermfg=White        ctermbg=Black
   hi Constant     guifg=White          guibg=Black
-  hi Identifier   ctermfg=LightYellow  ctermbg=Black
-  hi Identifier   guifg=LightYellow    guibg=Black
+  hi Identifier   ctermfg=White        ctermbg=Black
+  hi Identifier   guifg=White          guibg=Black
   hi Type         ctermfg=White        ctermbg=Black
   hi Type         guifg=White          guibg=Black
   hi String       ctermfg=White        ctermbg=black
@@ -46,8 +46,8 @@ let g:colors_name="plain"
   hi Cursor       guifg=LightGray      guibg=White
   hi ErrorMsg     ctermfg=Red          ctermbg=Black cterm=bold term=bold
   hi ErrorMsg     guifg=Red            guibg=Black gui=bold term=bold
-  hi WarningMsg   ctermfg=Yellow       ctermbg=Black
-  hi WarningMsg   guifg=Yellow         guibg=Black
+  hi WarningMsg   ctermfg=White       ctermbg=Black
+  hi WarningMsg   guifg=White         guibg=Black
   hi VertSplit    ctermfg=White        ctermbg=Black
   hi VertSplit    guifg=White          guibg=Black
   hi Directory    ctermfg=White        ctermbg=Black
