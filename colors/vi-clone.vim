@@ -1,14 +1,14 @@
 "" vim color file
 "" originally "basic", now "vi-clone"
 "" in honor of elvis' perfect highlighting
-"" originally by:       Mikel Ward <mikel@mikelward.com>
+"" originally by: Mikel Ward <mikel@mikelward.com>
 "" maintainer: Ryan P.C. McQuen <ryan.q@linux.com>
 "" last update: 2014.10
 
-"" remove all existing highlighting and set the defaults.
+"" remove all existing highlighting and set the defaults
 highlight clear
 
-" Load the syntax highlighting defaults, if it's enabled.
+" load the syntax highlighting defaults, if enabled
 "if exists("syntax_on")
 "  syntax reset
 "endif
